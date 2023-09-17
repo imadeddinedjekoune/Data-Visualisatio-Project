@@ -1,0 +1,75 @@
+html, body {
+	height: 100%;
+    margin: 0;
+    overflow: hidden; 
+}
+
+
+.container {
+    min-height: 100%; 
+    
+}
+
+.carte {
+    height: 100vh;
+    
+}
+
+.options3{
+	border-radius: 10px;
+	background-color: rgba(255, 222, 93, 0.8);
+	position:absolute;
+	display: none;
+	top: 10%;
+	left:50%; 
+	width: 10vw;
+	height: 30vh;
+	box-shadow: 5px 5px #888888;
+}
+
+
+.titleSalle{
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
+.closeFen{
+	text-align: right;
+	padding: 2px;
+}
+.closeFen:hover{
+	cursor: default ;
+}
+
+.otherinformations{
+	padding-left: 10px;
+}
+
+
+
+.options1{
+	background-color: rgba(1, 0, 1, 0.0);
+	position:absolute;
+	top: 90%;
+	left:90%; 
+	width: 10vw;
+	height: 6vh;
+}
+
+.options2{
+	background-color: rgba(1, 1, 0, 0.0);
+	position:absolute;
+	top: 0%;
+	left:0%; 
+	width: 20vw;
+	height: 100vh;
+}
+
+.cl1{
+	fill:white;
+	stroke: black;
+}
+.selected{
+	fill: greenyellow;
+}

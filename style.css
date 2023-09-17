@@ -1,0 +1,16 @@
+.cl1{
+	fill:white;
+	stroke: black;
+}
+.selected{
+	fill: greenyellow;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    min-height: 100%; 
+}
